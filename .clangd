@@ -1,0 +1,15 @@
+Diagnostics:
+    Suppress: [
+        typename_nested_not_found,
+        missing_type_specifier,
+        unknown_typename,
+        
+    ]
+
+CompileFlags:
+    Add: [
+        -std=c++20,
+        -D __cpp_if_constexpr=201606L,
+        -D __cpp_fold_expressions=1,
+        -ferror-limit=0,
+        ]
